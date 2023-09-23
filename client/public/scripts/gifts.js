@@ -62,13 +62,9 @@ const renderGift = async () => {
     // Get the gift id from the url
     const requestedID = parseInt(window.location.href.split('/').pop())
 
-    console.log(requestedID)
-
     // Fetch the gift from the server
     const response = await fetch('/gifts')
     const data = await response.json()
-
-    console.log(data)
 
     // giftContent that points to the element with ID 'gift-content'
     const giftContent = document.getElementById('gift-content')
@@ -91,11 +87,11 @@ const renderGift = async () => {
     }
 }
 
-renderGift()
-
 const requestedUrl = window.location.href.split('/').pop()
-if (requestedUrl) {
+if (requestedUrl && isNaN(parseInt(requestedUrl))) {
     window.location.href = '../404.html'
+} else if (requestedUrl) {
+    renderGift()
 } else {
     renderGifts()
 }
