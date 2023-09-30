@@ -7,6 +7,7 @@ import giftData from '../data/gifts.js'
  */
 const createGiftsTable = async () => {
     const createTabQuery = `
+        DROP TABLE IF EXISTS gifts;
 
         CREATE TABLE IF NOT EXISTS gifts (
             id SERIAL PRIMARY KEY,

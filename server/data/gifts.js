@@ -14,7 +14,7 @@ const giftData = [
         "name": "Lego Flower Bouquet Kit",
         "pricePoint": "$",
         "audience": "Green Thumbs",
-        "image":"https://tinyurl.com/ydpv2bt9",
+        "image":"https://tinyurl.com/4t34ffaz",
         "description":"A gift and fun activity to do together",
         "submittedBy":"Isabel",
         "submittedOn":"2023-02-14T12:32:00"
@@ -44,7 +44,7 @@ const giftData = [
         "name": "Razer Kitty Headset",
         "pricePoint": "$$",
         "audience": "Gamers",
-        "image":"https://tinyurl.com/4pt84wry",
+        "image":"https://tinyurl.com/2ybs84r9",
         "description":"Create the purrfect gaming look with your own killer kitty style",
         "submittedBy":"Pixie",
         "submittedOn":"2011-10-10T14:48:00"
@@ -94,7 +94,7 @@ const giftData = [
         "name": "Vintage Radio",
         "pricePoint": "$$$",
         "audience": "Music Enthusiasts",
-        "image": "https://tinyurl.com/sample2",
+        "image": "https://tinyurl.com/45tu3bfb",
         "description": "Relive the golden age of music with this vintage radio.",
         "submittedBy": "Ricardo",
         "submittedOn": "2022-09-05T10:20:00"
@@ -104,7 +104,7 @@ const giftData = [
         "name": "Eco-friendly Water Bottle",
         "pricePoint": "$$",
         "audience": "Eco Warriors",
-        "image": "https://tinyurl.com/sample3",
+        "image": "https://tinyurl.com/3uw24fx2",
         "description": "Stay hydrated and save the planet with this reusable water bottle.",
         "submittedBy": "Aisha",
         "submittedOn": "2022-09-06T15:35:00"
