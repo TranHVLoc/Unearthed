@@ -24,6 +24,16 @@ router.get('/', GiftController.getGifts);
 // Create a GET route at the '/:giftId' endpoint that responds with status code 200 and send a JSON of the giftData
 router.get('/:giftId', GiftController.getGiftById)
 
+// Create a POST route at the '/' endpoint that responds with status code 201 and send a JSON of the new gift
+router.post('/', GiftController.createGift);
+
+// Create a DELETE route at the '/:id' endpoint that responds with status code 200 and send a JSON of the deleted gift
+router.delete('/:giftId', GiftController.deleteGift);
+
+// Create a PATCH route at the '/:giftId' endpoint that responds with status code 200 and send a JSON of the updated gift
+router.patch('/:giftId', GiftController.updateGift);
+
+
 // Create a GET route at the '/:giftId' endpoint that responds with status code 200 and send the gift.html file
 // router.get('/:giftId', (req, res) => {
 //     res.status(200).sendFile(path.resolve(__dirname, '../public/gift.html'));
